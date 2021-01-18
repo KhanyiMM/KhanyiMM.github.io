@@ -1,87 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanyisile Moyo</title>
 </head>
 <link rel="stylesheet" href="main.css">
-<body style="background-color:purple;">
+
+<body style="background-color: rgb(27, 63, 92);">
     <header>
-        <img src="IMG_selfie.jpg" alt="A picture of Khanyi" style="width: 10%;" class="center">
         <div class="menu-toggler">
             <div class="bar half start"></div>
             <div class="bar"></div>
             <div class="bar half end"></div>
         </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#aboutme" class="nav-link">About Me</a>
-                </li>
-                <li>
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li>
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
+        <nav>
+            <div class="left-links">
+                <a href="aboutme" class="nav-link">Khanyisile Moyo</a>
+            </div>
+            <div class="right-links">
+                <a href="index.html" class="nav-link">Home</a>
+
+                <a href="#aboutme" class="nav-link">About Me</a>
+
+                <a href="#skills" class="nav-link">Skills</a>
+
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
         </nav>
-        <div class="landing-text">
-            <h1>Khanyisile Moyo</h1>
-            <h4>Data Engineer</h4>
-    </div>
+        <div class="container">
+            <img src="polar-lights.jpg" alt="geometric background" width="1635" height="300" style='margin:28px;'>
+            <div class="center-title">
+                <p class='title-name'>Khanyisile Moyo</p>
+                <p class='title-career'>Data Engineer</h5>
+            </div>
+        </div>
     </header>
     <section class="aboutme" id="aboutme">
-        <div class="container">
-            <div class="about-heading">
-                <h1>About me</h1>
+        <div class="about-heading">
+            <h1>About me</h1>
+            <div class='a'>
+                <p> <img src='IMG_Selfie.jpg' class='img' style='margin: 0px -20px 50px 120px'>
+                    Hi, I'm Khanyi and I am currently learning to write code to eventually
+                    become a data engineer. I have an interest in using technical skills to
+                    analyze data, big or small. I am motivated by the belief that data can be
+                    used to make better decisions. I want to be able to make it easier for
+                    people to understand code and use data efficiently.
+                    Currently I primarily use Python.
+                </p>
             </div>
-            <p>I am a self-taught data engineer who is very interested in
-                web development.
-            </p>
         </div>
     </section>
-    <section class="skills" id="skills">
+    <div class='wrapper'>
         <div class="container">
             <div class="skills-heading">
                 <h1>Skills</h1>
             </div>
-            <p>I know python and a bit of javascript
-            </p>
+            <p class='skills-python'>Python</p>
+            <div class="skills python">20%</div>
         </div>
-    </section>
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="portfolio-heading">
-                <h1>Portfolio</h1>
+        <p class='skills-javascript'>Javascript</p>
+        <div class="container-bar">
+            <div class="skills javascript">20%</div>
+        </div>
+        <p class='skills-figma'>Figma</p>
+        <div class="container-bar">
+            <div class="skills figma">20%</div>
+        </div>
+
+        <div class="vl"></div>
+
+        <div class='containter'>
+        <div class="portfolio-heading">
+            <h1>Portfolio</h1>
+        </div>
+            <div class='b'>
+                    <p> <img src="Student planner.jpg" alt="student planner app" class='student-planner' style='margin: 0px 12px 0px 0px'>
+                        <a href="https://www.youtube.com/watch?v=1dDWTzhBj9c&t=11s" target="_blank">Design Sprint - Student planner
+                        </a>
+                    </p>
+                    <p class='c'>An app for early-middle high school students to research all the relevant information when searching for tertiary education</p>
             </div>
-            <p>Coming soon...
-            </p>
         </div>
-    </section>
+    </div>
     <section class="contact" id="contact">
         <div class="my-contacts">
             <div class="container">
                 <div class="contact-heading">
                     <h1>Contact</h1>
-                    <p>Email: moyo.khanyi@gmail.com
+                    <p>
+                        <img class='imageWithText' src='email-2.png'> Email: moyo.khanyi@gmail.com
                     </p>
-                    <p>GitHub: KhanyiMM
+                    <p>
+                        <img class='imageWithText' src='github-2.png'> GitHub: KhanyiMM
                     </p>
-                    <p>Cell: 067 719 3590
+                    <p>
+                        <img class='imageWithText' src='phone-2.png'> Cell: 067 719 3590
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    
-    
+    </div>
 </body>
+
 </html>

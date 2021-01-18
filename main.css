@@ -1,62 +1,218 @@
-body {
-    background-color: purple;
-    opacity: 0.6;
+nav {
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: rgb(27, 63, 92);
+    overflow: auto;
+    height: auto;
+}
+
+.left-links{
+    flex:1 1 200px;
 }
 
 .nav-link {
-    color: yellow;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bolder;
 }
 
-.nav-list {
-    list-style:none;
-    width: 100%;
+.nav-link:hover {
+    border-bottom: 4px solid rgb(16, 87, 149);
+}
+
+.left-link {
+    list-style: none;
     height: 100%;
+    width: 130%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 1px;
 }
 
-li {
-    margin: 0 2rem;
+h1 {
+    font-size: 2.2rem;
 }
 
-.nav-link{
+.title-name {
+    font-size: 3rem;
+}
+
+.title-career {
     font-size: 1.5rem;
 }
 
-.landing-text{
-    top: 20%;
-    left: 50%;
+.center-title{
+    position: absolute;
+    top: 15%;
     width: 100%;
     text-align: center;
-    color: yellow;
-    font-size: 1.7rem;
+    font-size: px;
+    font-weight: bolder;
+    color: white;
 }
 
 .aboutme {
     text-align: center;
-    color: black;
-    top: 100%;
+    color: white;
+    font-size: 50%;
 }
 
 .center{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .skills{
     text-align: center;
 }
 
-.portfolio{
-    text-align: center;
+.skills-python {
+    position: absolute;
+    left: 160px;
+    bottom: 198px;
 }
 
-.contact{
+.skills-javascript {
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+}
+
+.skills-figma {
+    position: absolute;
+    left: 590px;
+    bottom: 200px;
+}
+
+.python {
+    width: 20%; 
+    background-color: rgb(16, 87, 149);
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    bottom: 190px;
+}
+
+.javascript {
+    width: 20%; 
+    background-color: rgb(16, 87, 149);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    bottom: 90px;
+}
+
+.figma {
+    width: 20%;
+    background-color: rgb(16, 87, 149);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 450px;
+    bottom: 195px;
+}
+
+.container-bar {
+    width: 50%; /* Full width */
+    background-color: rgb(150, 46, 46); /* Grey background */
+}
+
+.portfolio-heading{
+    position: absolute;
+    right: 600px;
+    bottom: 320px;
+}
+
+.skills-heading{
+    position: absolute;
+    left: 600px;
+    bottom: 310px;
+}
+
+.contact-heading{
+    position: absolute;
+    text-align: center;
+    left: 665px;
+    bottom: -130%;
+    color: white
+}
+
+.a {
+    word-wrap: break-word;
+    width: 879px;
+    text-align: left;
+    position: absolute;
+    right:500px;
+    top:auto
+}
+
+.img{
+    width: auto;
+    height: 18em;
+    float: right;
+}
+
+.b {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    text-align: right;
+}
+
+.student-planner{
+    width: auto;
+    height:220px;
+    float: left;
+}
+
+.c {
+    word-wrap: break-word;
+    width: 400px;
+    text-align: left;
+    position: absolute;
+    left: 227px;
+}
+
+.vl {
+    border-left: 4px solid rgb(27, 63, 92);
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    bottom: 0.1%;
+}
+
+.wrapper {
+    width: 1679px;
+    height: 450px;
+    margin: 3;
+    padding: 0;
+    position: absolute;
+    bottom: -650px;
+    background-color: white;
+}
+
+.imageWithText{
+    width: auto;
+    height: 1.1em;
+    vertical-align: text-bottom;
+}
+
+.img{
+    width: auto;
+    height: 18em;
+    float: right;
 }
