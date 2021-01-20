@@ -10,6 +10,7 @@ nav {
 
 .left-links{
     flex:1 1 200px;
+    left: 250%;
 }
 
 .nav-link {
@@ -24,15 +25,6 @@ nav {
 
 .nav-link:hover {
     border-bottom: 4px solid rgb(16, 87, 149);
-}
-
-.left-link {
-    list-style: none;
-    height: 100%;
-    width: 130%;
-    display: flex;
-    justify-content: center;
-    margin: 1px;
 }
 
 h1 {
@@ -59,7 +51,7 @@ h1 {
 
 .aboutme {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50%;
 }
 
@@ -77,20 +69,23 @@ p {
 
 .skills-python {
     position: absolute;
-    left: 160px;
-    bottom: 198px;
+    left: 653px;
+    bottom: -340px;
+    color: white;
 }
 
 .skills-javascript {
     position: absolute;
-    left: 150px;
-    bottom: 100px;
+    left: 830px;
+    bottom: -530px;
+    color: white;
 }
 
 .skills-figma {
     position: absolute;
-    left: 590px;
-    bottom: 200px;
+    left: 1000px;
+    bottom: -340px;
+    color: white;
 }
 
 .python {
@@ -100,8 +95,8 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 50px;
-    bottom: 190px;
+    left: 540px;
+    bottom: -350px;
 }
 
 .javascript {
@@ -111,8 +106,8 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 50px;
-    bottom: 90px;
+    left: 730px;
+    bottom: -550px;
 }
 
 .figma {
@@ -122,8 +117,32 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 450px;
-    bottom: 192px;
+    left: 890px;
+    bottom: -350px;
+}
+
+.pythonWithText{
+    width: auto;
+    position:absolute;
+    height: 2.5em;
+    left: 49%;
+    bottom: -48%;
+}
+
+.javascriptWithText{
+    width: auto;
+    position:absolute;
+    height: 2.5em;
+    left: 63%;
+    bottom: -80%;
+}
+
+.figmaWithText{
+    width: auto;
+    position:absolute;
+    height: 2.5em;
+    left: 74%;
+    bottom: -48%;
 }
 
 .container-bar {
@@ -133,22 +152,22 @@ p {
 
 .portfolio-heading{
     position: absolute;
-    right: 600px;
-    bottom: 320px;
+    right: 420px;
+    bottom: -800px;
 }
 
 .skills-heading{
     position: absolute;
-    left: 600px;
-    bottom: 310px;
+    left: 800px;
+    bottom: -210px;
 }
 
 .contact-heading{
     position: absolute;
     text-align: center;
     left: 665px;
-    bottom: -150%;
-    color: white
+    bottom: -220%;
+    color: rgb(255, 255, 255)
 }
 
 .a {
@@ -168,40 +187,41 @@ p {
 
 .b {
     position: absolute;
-    right: 200px;
-    bottom: 100px;
+    right: 800px;
+    bottom: -750px;
     text-align: right;
 }
 
 .student-planner{
     width: auto;
     height:220px;
-    float: left;
+    position: absolute;
+    bottom: -1500%;
+    left: 800%;
 }
 
 .c {
     word-wrap: break-word;
     width: 400px;
-    text-align: left;
     position: absolute;
-    left: 227px;
+    bottom: -160%;
+    left: 60%;
+    color: white;
 }
 
-.vl {
-    border-left: 4px solid rgb(27, 63, 92);
-    height: 450px;
-    position: absolute;
-    left: 49%;
-    bottom: 0.1%;
+.hl {
+    border: 4px solid rgb(202, 29, 116);
+    bottom: -500%;
+    position: relative;
 }
 
 .wrapper {
-    width: 1679px;
-    height: 450px;
+    width: 1660px;
+    height: 900px;
     margin: 3;
     padding: 0;
     position: absolute;
-    bottom: -650px;
+    bottom: -900px;
     background-color: white;
 }
 
