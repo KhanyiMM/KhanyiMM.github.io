@@ -68,6 +68,13 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 70em) {
+    .skills-python {
+      left: 240px;
+      bottom: -390px;
+    }
+}
+
 .skills-javascript {
     position: absolute;
     left: 635px;
@@ -75,11 +82,25 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 70em) {
+    .skills-javascript {
+      left: 364px;
+      bottom: -540px;
+    }
+}
+
 .skills-figma {
     position: absolute;
     left: 836px;
     bottom: -580px;
     color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 70em) {
+    .skills-figma {
+      left: 510px;
+      bottom: -390px;
+    }
 }
 
 .python {
@@ -93,6 +114,13 @@ h1 {
     bottom: -600px;
 }
 
+@media only screen and (max-width: 70em) {
+    .python {
+      left: 180px;
+      bottom: -400px;
+    }
+}
+
 .javascript {
     width: 20%; 
     background-color: rgb(16, 87, 149);
@@ -102,6 +130,13 @@ h1 {
     position: absolute;
     left: 530px;
     bottom: -720px;
+}
+
+@media only screen and (max-width: 70em) {
+    .javascript {
+      left: 312px;
+      bottom: -550px;
+    }
 }
 
 .figma {
@@ -115,12 +150,26 @@ h1 {
     bottom: -600px;
 }
 
+@media only screen and (max-width: 70em) {
+    .figma {
+      left: 450px;
+      bottom: -400px;
+    }
+}
+
 .pythonWithText{
     width: auto;
     position:absolute;
     height: 2.5em;
     left: 27%;
     bottom: -90%;
+}
+
+@media only screen and (max-width: 70em) {
+    .pythonWithText {
+      left: 240px;
+      bottom: -350px;
+    }
 }
 
 .javascriptWithText{
@@ -131,12 +180,25 @@ h1 {
     bottom: -110%;
 }
 
+@media only screen and (max-width: 70em) {
+    .javascriptWithText {
+      left: 380px;
+      bottom: -500px;
+    }
+}
 .figmaWithText{
     width: auto;
     position:absolute;
     height: 2.5em;
     left: 62%;
     bottom: -90%;
+}
+
+@media only screen and (max-width: 70em) {
+    .figmaWithText {
+      left: 512px;
+      bottom: -350px;
+    }
 }
 
 .container-bar {
@@ -147,7 +209,13 @@ h1 {
 .portfolio-heading{
     position: absolute;
     right: 640px;
-    bottom: -880px;
+    bottom: -800px;
+}
+
+@media only screen and (max-width: 70em) {
+    .portfolio-heading {
+      left: 344px;
+    }
 }
 
 .skills-heading{
@@ -156,12 +224,26 @@ h1 {
     bottom: -450px;
 }
 
+@media only screen and (max-width: 70em) {
+    .skills-heading {
+      left: 370px;
+      bottom: -250px;
+    }
+}
+
 .contact-heading{
     position: absolute;
     text-align: center;
-    left: 600px;
-    bottom: -220%;
+    left: 550px;
+    bottom: -240%;
     color: rgb(0, 0, 0)
+}
+
+@media only screen and (max-width: 70em) {
+    .contact-heading {
+      left: 300px;
+      bottom: -1200px;
+    }
 }
 
 .a {
@@ -171,7 +253,7 @@ h1 {
     right: 170px;
     top: 550px;
     width: 1010px;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 @media only screen and (max-width: 70em) {
@@ -189,7 +271,7 @@ h1 {
 
 .b {
     position: absolute;
-    right: 800px;
+    right: 780px;
     bottom: -750px;
     text-align: right;
 }
@@ -198,17 +280,31 @@ h1 {
     width: auto;
     height:220px;
     position: absolute;
-    bottom: -450px;
-    left: 800%;
+    bottom: -380px;
+    right: -50px;
+}
+
+@media only screen and (max-width: 70em) {
+    .student-planner {
+      left: 100px;
+      bottom: -270px;
+    }
 }
 
 .c {
     word-wrap: break-word;
     width: 400px;
     position: absolute;
-    bottom: -160%;
-    left: 60%;
+    bottom: -170%;
+    left: 50%;
     color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 70em) {
+    .c {
+      left: 400px;
+      bottom: -870px;
+    }
 }
 
 .wrapper {
