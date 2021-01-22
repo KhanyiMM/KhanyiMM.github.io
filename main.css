@@ -1,10 +1,13 @@
+body{
+    background-color: rgb(157, 188, 212)
+}
+
 nav {
     display: flex;
     position: fixed;
     top:0;
     width: 100%;
-    background-color: rgb(27, 63, 92);
-    overflow: auto;
+    background-color: rgb(157, 188, 212);
     height: auto;
 }
 
@@ -17,9 +20,9 @@ nav {
     display: inline-block;
     text-align: center;
     padding: 14px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -42,25 +45,20 @@ h1 {
 .center-title{
     position: absolute;
     top: 15%;
-    left: 10%;
+    left: 1%;
     width: 100%;
     text-align: center;
     font-weight: bolder;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .aboutme {
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 50%;
+    color: rgb(0, 0, 0);
 }
 
 .center{
     display: block;
-}
-
-p {
-    font-size: 1.2rem;
 }
 
 .skills{
@@ -71,19 +69,19 @@ p {
     position: absolute;
     left: 653px;
     bottom: -340px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .skills-javascript {
     position: absolute;
     left: 830px;
     bottom: -530px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .skills-figma {
     position: absolute;
-    left: 1000px;
+    left: 500px;
     bottom: -340px;
     color: white;
 }
@@ -95,7 +93,7 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 540px;
+    left: 250px;
     bottom: -350px;
 }
 
@@ -117,7 +115,7 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 890px;
+    left: 600px;
     bottom: -350px;
 }
 
@@ -141,7 +139,7 @@ p {
     width: auto;
     position:absolute;
     height: 2.5em;
-    left: 74%;
+    left: 60%;
     bottom: -48%;
 }
 
@@ -167,16 +165,16 @@ p {
     text-align: center;
     left: 665px;
     bottom: -220%;
-    color: rgb(255, 255, 255)
+    color: rgb(0, 0, 0)
 }
 
 .a {
     word-wrap: break-word;
-    width: 875px;
+    width: 880px;
     text-align: left;
     position: absolute;
-    right:130px;
-    top:auto; 
+    right: 250px;
+    font-size: 1.8em;
 }
 
 .img{
@@ -206,14 +204,10 @@ p {
     position: absolute;
     bottom: -160%;
     left: 60%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
-.hl {
-    border: 4px solid rgb(202, 29, 116);
-    bottom: -500%;
-    position: relative;
-}
+
 
 .wrapper {
     width: 1660px;
@@ -235,4 +229,15 @@ p {
     width: auto;
     height: 13em;
     float: right;
+}
+
+.geometric {
+    max-width: 100%;
+    height: 400px;
+}
+
+@media only screen and (max-width: 418px) {
+    body {
+      background-color: rgb(3, 3, 3);
+    }
 }
