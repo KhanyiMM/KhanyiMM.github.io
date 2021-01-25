@@ -66,6 +66,7 @@ h1 {
     left: 357px;
     bottom: -580px;
     color: rgb(0, 0, 0);
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 70em) {
@@ -80,6 +81,7 @@ h1 {
     left: 635px;
     bottom: -700px;
     color: rgb(0, 0, 0);
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 70em) {
@@ -94,6 +96,7 @@ h1 {
     left: 836px;
     bottom: -580px;
     color: rgb(0, 0, 0);
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 70em) {
@@ -209,7 +212,7 @@ h1 {
 .portfolio-heading{
     position: absolute;
     right: 640px;
-    bottom: -800px;
+    bottom: -870px;
 }
 
 @media only screen and (max-width: 70em) {
@@ -236,13 +239,14 @@ h1 {
     text-align: center;
     left: 550px;
     bottom: -240%;
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 70em) {
     .contact-heading {
       left: 300px;
-      bottom: -1200px;
+      bottom: -1270px;
     }
 }
 
@@ -253,7 +257,7 @@ h1 {
     right: 170px;
     top: 550px;
     width: 1010px;
-    font-size: 3em;
+    font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 70em) {
@@ -298,12 +302,13 @@ h1 {
     bottom: -170%;
     left: 50%;
     color: rgb(0, 0, 0);
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 70em) {
     .c {
       left: 400px;
-      bottom: -870px;
+      bottom: -910px;
     }
 }
 
