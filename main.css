@@ -1,340 +1,242 @@
-body{
-    background-color: rgb(157, 188, 212)
+body {
+  background-color: rgb(157, 188, 212);
 }
 
 nav {
-    display: flex;
-    position: fixed;
-    top:0;
-    width: 98.9%;
-    background-color: rgb(157, 188, 212);
-    height: auto;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(216, 141, 106);
+  height: auto;
 }
 
-.left-links{
-    flex:1 1 200px;
-    left: 250%;
+.left-links {
+  flex: 1 1 200px;
+  left: 250%;
 }
 
 .nav-link {
-    display: inline-block;
-    text-align: center;
-    padding: 14px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bolder;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bolder;
 }
 
 .nav-link:hover {
-    border-bottom: 4px solid rgb(16, 87, 149);
+  border-bottom: 4px solid rgb(16, 87, 149);
 }
 
 h1 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .title-name {
-    font-size: 2.3rem;
+  font-size: 2.9rem;
 }
 
 .title-career {
-    font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
-.center-title{
-    position: absolute;
-    top: 15%;
-    left: 1%;
-    width: 100%;
-    text-align: center;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
+.center-title {
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
 }
 
 .aboutme {
-    text-align: center;
-    color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
-.center{
-    display: block;
+.center {
+  display: block;
 }
 
-.skills-python {
-    position: absolute;
-    left: 357px;
-    bottom: -580px;
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
-}
-
-@media only screen and (max-width: 70em) {
-    .skills-python {
-      left: 240px;
-      bottom: -390px;
-    }
-}
-
-.skills-javascript {
-    position: absolute;
-    left: 635px;
-    bottom: -700px;
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+.pythonWithText {
+  width: auto;
+  position: absolute;
+  height: 5em;
+  left: 10%;
+  bottom: -80%;
 }
 
 @media only screen and (max-width: 70em) {
-    .skills-javascript {
-      left: 364px;
-      bottom: -540px;
-    }
+  .pythonWithText {
+    left: 240px;
+    bottom: -350px;
+  }
 }
 
-.skills-figma {
-    position: absolute;
-    left: 836px;
-    bottom: -580px;
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
-}
-
-@media only screen and (max-width: 70em) {
-    .skills-figma {
-      left: 510px;
-      bottom: -390px;
-    }
-}
-
-.python {
-    width: 20%; 
-    background-color: rgb(16, 87, 149);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 250px;
-    bottom: -600px;
+.htmlWithText {
+  width: auto;
+  position: absolute;
+  height: 5em;
+  left: 20%;
+  bottom: -80%;
 }
 
 @media only screen and (max-width: 70em) {
-    .python {
-      left: 180px;
-      bottom: -400px;
-    }
+  .htmlWithText {
+    left: 380px;
+    bottom: -500px;
+  }
 }
-
-.javascript {
-    width: 20%; 
-    background-color: rgb(16, 87, 149);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 530px;
-    bottom: -720px;
+.cssWithText {
+  width: auto;
+  position: absolute;
+  height: 5em;
+  left: 30%;
+  bottom: -80%;
 }
 
 @media only screen and (max-width: 70em) {
-    .javascript {
-      left: 312px;
-      bottom: -550px;
-    }
-}
-
-.figma {
-    width: 20%;
-    background-color: rgb(16, 87, 149);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 720px;
-    bottom: -600px;
-}
-
-@media only screen and (max-width: 70em) {
-    .figma {
-      left: 450px;
-      bottom: -400px;
-    }
-}
-
-.pythonWithText{
-    width: auto;
-    position:absolute;
-    height: 2.5em;
-    left: 27%;
-    bottom: -90%;
-}
-
-@media only screen and (max-width: 70em) {
-    .pythonWithText {
-      left: 240px;
-      bottom: -350px;
-    }
-}
-
-.javascriptWithText{
-    width: auto;
-    position:absolute;
-    height: 2.5em;
-    left: 48%;
-    bottom: -110%;
-}
-
-@media only screen and (max-width: 70em) {
-    .javascriptWithText {
-      left: 380px;
-      bottom: -500px;
-    }
-}
-.figmaWithText{
-    width: auto;
-    position:absolute;
-    height: 2.5em;
-    left: 62%;
-    bottom: -90%;
-}
-
-@media only screen and (max-width: 70em) {
-    .figmaWithText {
-      left: 512px;
-      bottom: -350px;
-    }
+  .cssWithText {
+    left: 512px;
+    bottom: -350px;
+  }
 }
 
 .container-bar {
-    width: 50%; /* Full width */
-    background-color: rgb(150, 46, 46); /* Grey background */
+  width: 50%; /* Full width */
+  background-color: rgb(150, 46, 46); /* Grey background */
 }
 
-.portfolio-heading{
-    position: absolute;
-    right: 640px;
-    bottom: -870px;
-}
-
-@media only screen and (max-width: 70em) {
-    .portfolio-heading {
-      left: 344px;
-    }
-}
-
-.skills-heading{
-    position: absolute;
-    left: 630px;
-    bottom: -450px;
+.portfolio-heading {
+  position: absolute;
+  right: 200px;
+  bottom: -355px;
 }
 
 @media only screen and (max-width: 70em) {
-    .skills-heading {
-      left: 370px;
-      bottom: -250px;
-    }
+  .portfolio-heading {
+    left: 344px;
+  }
 }
 
-.contact-heading{
-    position: absolute;
-    text-align: center;
-    left: 550px;
-    bottom: -240%;
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+.skills-heading {
+  position: absolute;
+  left: 250px;
+  bottom: -360px;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 70em) {
-    .contact-heading {
-      left: 300px;
-      bottom: -1270px;
-    }
+  .skills-heading {
+    left: 370px;
+    bottom: -250px;
+  }
+}
+
+.contact-heading {
+  position: absolute;
+  text-align: center;
+  left: 550px;
+  bottom: -160%;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 70em) {
+  .contact-heading {
+    left: 300px;
+    bottom: -1270px;
+  }
 }
 
 .a {
-    word-wrap: break-word;
-    text-align: left;
-    position: absolute;
-    right: 170px;
-    top: 550px;
-    width: 1010px;
-    font-size: 1.3rem;
+  word-wrap: break-word;
+  text-align: left;
+  position: absolute;
+  right: 90px;
+  top: 550px;
+  width: 1010px;
+  font-size: 1.4rem;
 }
 
 @media only screen and (max-width: 70em) {
-    .a {
-      right: 40px;
-      width: 650px;
-    }
+  .a {
+    right: 40px;
+    width: 650px;
+  }
 }
 
-.img{
-    width: auto;
-    height: 10em;
-    float: right;
+.img {
+  width: auto;
+  height: 10em;
+  float: right;
 }
 
 .b {
-    position: absolute;
-    right: 780px;
-    bottom: -750px;
-    text-align: right;
+  position: absolute;
+  right: 200px;
+  bottom: -200px;
+  text-align: right;
 }
 
-.student-planner{
-    width: auto;
-    height:220px;
-    position: absolute;
-    bottom: -380px;
-    right: -50px;
+.student-planner {
+  width: auto;
+  height: 220px;
+  position: absolute;
+  bottom: -380px;
+  right: 90px;
 }
 
 @media only screen and (max-width: 70em) {
-    .student-planner {
-      left: 100px;
-      bottom: -270px;
-    }
+  .student-planner {
+    left: 100px;
+    bottom: -270px;
+  }
 }
 
 .c {
-    word-wrap: break-word;
-    width: 400px;
-    position: absolute;
-    bottom: -170%;
-    left: 50%;
-    color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+  word-wrap: break-word;
+  width: 400px;
+  position: absolute;
+  bottom: -90%;
+  left: 75%;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 70em) {
-    .c {
-      left: 400px;
-      bottom: -910px;
-    }
+  .c {
+    left: 400px;
+    bottom: -910px;
+  }
 }
 
 .wrapper {
-    width: 1660px;
-    height: 900px;
-    margin: 3;
-    padding: 0;
-    position: absolute;
-    bottom: -900px;
-    background-color: white;
+  width: 1660px;
+  height: 900px;
+  margin: 3;
+  padding: 0;
+  position: absolute;
+  bottom: -900px;
+  background-color: white;
 }
 
-.imageWithText{
-    width: auto;
-    height: 1.1em;
-    vertical-align: text-bottom;
+.imageWithText {
+  width: auto;
+  height: 1.1em;
+  vertical-align: text-bottom;
 }
 
-.img{
-    width: auto;
-    height: 13em;
-    float: right;
+.img {
+  width: auto;
+  height: 13em;
+  float: right;
 }
 
 .geometric {
-    max-width: 100%;
-    height: 400px;
+  max-width: 100%;
+  height: 400px;
 }
